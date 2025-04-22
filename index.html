@@ -10,7 +10,7 @@
     <script>
         var nombre="Adrian";
 
-        document.getElementById('nombre').innerHTML="Mi nombre es:"+ nombre;
+        document.getElementById('nombre').innerHTML="Mi nombre es: "+ nombre;
     </script>
     <h1 id="resultado"></h1>
     <script>
@@ -19,7 +19,7 @@
 
         var calculo=(valor1/2)+(valor2*5)-100; 
 
-        document.getElementById('resultado').innerHTML="El resultado de la suma es:"+ calculo;
+        document.getElementById('resultado').innerHTML="El resultado de la suma es: "+ calculo;
     </script>
     <h1 id="respuesta"></h1>
     <script>
@@ -28,7 +28,7 @@
 
         var calculo=valor3 + valor4;
 
-        document.getElementById('respuesta').innerHTML="La respuesta de la suma es:"+calculo;
+        document.getElementById('respuesta').innerHTML="La respuesta de la suma es: "+calculo;
     </script>
     <h1 id="resultadoResta"></h1>
     <script>
@@ -37,9 +37,26 @@
 
         var calculo=x-y;
 
-        document.getElementById('resultadoResta').innerHTML="La respuesta de la resta es:"+calculo;
+        document.getElementById('resultadoResta').innerHTML="La respuesta de la resta es: "+calculo;
     </script>
     <h1 id="resultadoMultiplicacion"></h1>
+    <script>
+        var x=10
+        var y=2
+
+        var calculo=x*y;
+
+        document.getElementById('resultadoMultiplicacion').innerHTML="La respuesta de la multiplicacion es: "+calculo
+    </script>
+    <h1 id="resultadoDivision"></h1>
+    <script>
+        var x=150
+        var y=2
+
+        var calculo=x/y;
+
+        document.getElementById('resultadoDivision').innerHTML="La respuesta de la división es: "+calculo
+    </script>
 
 </body>
 </html>
